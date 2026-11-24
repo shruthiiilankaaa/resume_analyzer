@@ -27,15 +27,11 @@ def setup_nlp():
     try:
         nltk.data.find("corpora/stopwords")
     except LookupError:
-        nltk.download("stopwords")
-    try:
-        spacy.load("en_core_web_sm")
-    except OSError:
-        from spacy.cli import download
-        download("en_core_web_sm")
+        nltk.download("stopwords", quiet=True)
+    return spacy.load("en_core_web_sm")
 
 
-setup_nlp()
+nlp = setup_nlp()
 
 from analyze_resume import (
     extract_text_from_file,

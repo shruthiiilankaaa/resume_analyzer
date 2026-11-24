@@ -3,9 +3,15 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def get_ai_resume_feedback(resume_text, jd_text):
+
+def get_ai_resume_feedback(resume_text, jd_text, api_key=None):
+    key = api_key or os.getenv("OPENAI_API_KEY")
+    if not key:
+        raise ValueError("OpenAI API key is required for AI feedback.")
+
+    client = OpenAI(api_key=key)
+
     prompt = f"""
     You are a hiring expert. Given the following RESUME and JOB DESCRIPTION:
 
@@ -29,6 +35,7 @@ def get_ai_resume_feedback(resume_text, jd_text):
     )
 
     return response.choices[0].message.content
+
 
 # Test it
 if __name__ == "__main__":

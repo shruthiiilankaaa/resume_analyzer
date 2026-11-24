@@ -1,0 +1,8 @@
+We are hiring a Python Developer with experience in data analysis, SQL, and web development.
+
+Skills required:
+- Python
+- SQL
+- HTML, CSS, JavaScript
+- Git, GitHub
+- Django or Flask experience is a plus

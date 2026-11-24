@@ -1,0 +1,105 @@
+Your Name
+
+Gmail : yourmail4@gmail.com
+
+Contact : +91 98xxxxxx10
+
+Location : Place, Country
+
+EDUCATION
+
+Your Institution Name — B.Tech/M.Tech
+
+from date to date
+
+B.Tech in CSE-AL-ML(Artificial intelligence and Machine learning)
+
+GPA till date : 10.0
+
+EXPERIENCE
+
+Title of your experience
+
+from date to date
+
+Line 1
+
+Line 2
+
+Line 3
+
+Line 4
+
+PROJECTS
+
+Project 1—type(web app/mobile app)
+
+Line 1
+
+Line 2
+
+Line 3
+
+Line 4
+
+(https://linkifhosted/)
+
+Tech stacks used
+
+Project 2—type(web app/mobile app)
+
+Line 1
+Line 2
+Line 3
+Line 3
+(https://linkifhosted/)
+
+Python:streamlit,plotly,pandas
+
+SKILLS
+
+Programing Languages
+
+Experienced :
+
+C++ , Python, MySQL.
+
+Intermediate :
+
+HTML, CSS, PHP.
+
+Familiar :
+
+Java, Javascript.
+
+Problem Solving
+
+TOOLS
+
+Figma, Github.
+
+ACHIEVEMENTS
+
+Achievement 1
+
+line 2
+
+line 3
+
+Achievement 2
+
+Line 2
+
+Line 3
+
+LINKS
+
+GitHub :// github.com
+
+LinkedIn:// linkedin.com
+
+Leetcode:// leetcode.com
+
+Hackerrank ://hackerrank.com
+
+
